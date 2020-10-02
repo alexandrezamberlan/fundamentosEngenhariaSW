@@ -1,6 +1,6 @@
 ENGENHARIA DE SOFTWARE: conjunto de fases: modelagem; projeto; implementação; teste; entrega
     - Modelar: esquematizar esboços (visuais e descritivos) de aspectos estruturais e funcionais do sistema
-               levantar resquisitos
+               levantar resquisitos (geralmente nesta fase que UML é utilizada)
     - Projetar: estender a modelagem, mas informando detalhes para a implementação, ou seja,
                 modelos/esquemas/maquetes mais perto da realidade desejada
     - Implementar: operacionalizar com determinada tecnologia/material/produto as funcionalidades 
@@ -9,8 +9,8 @@ ENGENHARIA DE SOFTWARE: conjunto de fases: modelagem; projeto; implementação; 
               nomes ruins nas variáveis e nos métodos);
     - Entregar: ...
 
-     Nas fases Modelagem e Projeto há LINGUAGENS gráficas para criar os esquemas/modelos/esboços
-        - UML: Unified Modelling Language: liguagem visual para representar aspectos 
+     Nas fases Modelagem e Projeto há LINGUAGENS gráficas/visuais para criar os esquemas/modelos/esboços
+        - UML: Unified Modeling Language: liguagem visual para representar aspectos (DIAGRAMAS)
                estruturais e funcionais de um sistema em desenvolvimento.
             - Produz ARTEFATOS (diagramas) visuais com detalhes do sistema:
                 - Aspectos estruturais: banco de dados; classes; arquitetura (como os componentes 
@@ -18,3 +18,21 @@ ENGENHARIA DE SOFTWARE: conjunto de fases: modelagem; projeto; implementação; 
                 - Aspectos funcionais/comportamento: fluxo de atividades; fluxo de prioridade das
                   funcionalidades; diagrama de funcionalidades e responsabilidades
             - 14 diagramas ao todo: casos de uso; atividades; processo; ER; classes; sequência; arquitetura
+
+
+LINGUAGEM DE MODELAGEM UNIFICADA (UML)
+    - Ferramenta de modelagem visual orientada a objetos, ou seja, o próprio sistema e cada elemento que compõe o sistema é um objeto que possui ATRIBUTOS (aspectos estruturais) e MÉTODOS/OPERAÇÕES (aspectos funcionais/comportamentais) e vão desenhados como artefatos da UML.
+    Diagramas:
+        - Estruturais: modelar aspectos referente a atributos, objetos e classes.
+            - Classe, Pacote, Entrega
+        - Funcionais/Comportamentais: modelar aspectos referentes a operações ou métodos que o sistema ou os objetos podem ter.
+            Atividades, Sequencia (diagrama de interação), Casos de Uso (mapeia todas as macro funcionalidades do sistema)
+    ASTAH: ferramenta para diagramar UML
+    
+   
+   CURIOSIDADES:
+    IDE - Integrated Development Environment - Ambiente de Desenvolvimento Integrado (codifica, compila, executa, debuga e testa): CodeBlock, DevCPP, VisualStudio, Netbeans
+        OBSERVAÇÃO: Uma boa IDE permite a inserção de APIs e de sistemas de controle de versão
+    API - Application Programming Interface - Interface para Programar Aplicações (esta associado a um framework, logo a funcionalidades/serviços prontos): 
+    
+   
