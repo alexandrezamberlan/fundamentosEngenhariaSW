@@ -35,4 +35,16 @@ LINGUAGEM DE MODELAGEM UNIFICADA (UML)
         OBSERVAÇÃO: Uma boa IDE permite a inserção de APIs e de sistemas de controle de versão
     API - Application Programming Interface - Interface para Programar Aplicações (esta associado a um framework, logo a funcionalidades/serviços prontos): 
     
-   
+   Modelagem Estruturada: 
+    - Da década de 80 e foi elaborada por Peter Chen.
+    - Focada (INÍCIO) na construção do sistema a partir dos aspectos ESTRUTURAIS, principalmente, BANCO DE DADOS.
+    - Diagramas de Entidade-Relacionamento (ER: banco de dados) e de Fluxo de Dados (DFD: funcionalidades)
+    - Era muito usada com a METODOLOGIA CASCATA: só depois de fazer a modelagem, se fazia o projeto; só depois do projeto, se começava a implementação; só depois de terminar a implementação que o cliente recebi uma versão;
+    
+   Modelagem Orientada a Objetos (ENGENHARIA DE SOFTWARE ORIENTADA A OBJETOS)
+    - Engenharia de software mais atual (iniciou nos anos 90) e foi criada por Booch, Rumbaugh, Jacobson.
+    - Focada (INÍCIO) na construção do sistema a partir dos ASPECTOS FUNCIONAIS e com o uso da UML
+    - Diagramas: Casos de Uso, Atividades, Interação (Sequência); Pacotes e de Entrega (deployment)
+    - É muito utilizada com metodologias ÁGEIS (XP, FDD e SCRUM)
+        - elas executam as fases da engenharia (sem ser em cascata). Ou seja, faz-se um pouco de modelagem, ou pouco de projeto, pouco de implementação (gerando protótipos) e entregas frequentes (quase que quinzenais) aos clientes. 
+        - O QUE MUDA DRASTICAMENTE: é a presença do cliente na equipe do projeto e ENTREGAS FREQUENTES
