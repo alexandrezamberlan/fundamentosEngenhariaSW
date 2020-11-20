@@ -1,0 +1,38 @@
+Sistema:
+    - o que é? 
+        Conjunto de elementos e suas funcionalidades (atividades) 
+    - para que serve? 
+        Conjunto de partes que se interrelacionam para um objetivo comum
+
+    - Todo sistema é uma composição de aspectos estruturais (ELEMENTOS) e funcionais (ATIVIDADES)
+
+Nas metodologias ágeis, qual aspecto inicia-se na modelagem?
+    - Funcional (atividades) -> NÍVEL MAIS ABSTRATO (todos podem participar)
+    - Por esse motivo, que Diagramas de Casos de Uso e de Atividades são os primeiros a serem construídos
+
+    - Entretanto, para cada funcionalidade mapeada, é preciso:
+        - definir/mapear REQUISITOS
+            - obrigatórios - funcionais
+            - não obrigatórios - não funcionais
+        - associar uma funcionalidade a elemento(s)
+
+    - Toda vez que elementos surgem no sistema, também é preciso organizá-los, por isso os diagramas de pacotes, 
+      componentes e de entrega.
+    - Elementos estruturais -> NÍVEL MAIS TÉCNICO (computacional) 
+
+
+- Metodologias ágeis -> ITERATIVAS e INCREMENTAIS
+    - Entendimento do PROBLEMA -> REGRA DE NEGÓCIO -> quem fornece isso, é um especialista ou um indivíduo que pertença
+      ao grupo de clientes (que tenha mais experiência).
+
+
+
+         -> Tarefa    -> Atividade -> Ações
+Processo 
+         -> Atividade -> Ações
+
+
+Regra == Condição
+
+
+Restrição -> Regra == Condição
