@@ -1,0 +1,12 @@
+Fazer tem conflito com a burocracia
+
+Fazer/Realizar processo
+    - organizado ou desorganizado -> divisão de tarefas -> fluxo -> cumprimento de prazos
+                                  -> registro ou documentação -> reprodutibilidade
+                                                              -> manutenção                                
+
+    - usar boas práticas (engenharia e metodologa) implica:
+        - evitar improvisação
+        - aumentar qualidade
+        - cumprir prazos
+        - saber definir/calcular preços
