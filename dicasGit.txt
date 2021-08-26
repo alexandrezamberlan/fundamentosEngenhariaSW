@@ -21,8 +21,3 @@
     1o) ir para o diretório do projeto clonado e salvo na máquina
     2o) digitar:
     git pull origin master
-
-Alunos:
-    Cesar, Diana, João
-    
-Turma de Jogos Digitais da UFN em 2021-02.
