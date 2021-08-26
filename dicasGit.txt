@@ -20,7 +20,7 @@
     usar esse recurso sempre que começar a trabalhar no projeto
     1o) ir para o diretório do projeto clonado e salvo na máquina
     2o) digitar:
-    git pull orgin master
+    git pull origin master
 
 Alunos:
     Cesar, Diana, João
