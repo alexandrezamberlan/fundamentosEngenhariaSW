@@ -3,7 +3,6 @@ Sistema:
         Conjunto de elementos e suas funcionalidades (atividades) 
     - para que serve? 
         Conjunto de partes que se interrelacionam para um objetivo comum
-
     - Todo sistema é uma composição de aspectos estruturais (ELEMENTOS) e funcionais (ATIVIDADES)
 
 Nas metodologias ágeis, qual aspecto inicia-se na modelagem?
@@ -24,8 +23,6 @@ Nas metodologias ágeis, qual aspecto inicia-se na modelagem?
 - Metodologias ágeis -> ITERATIVAS e INCREMENTAIS
     - Entendimento do PROBLEMA -> REGRA DE NEGÓCIO -> quem fornece isso, é um especialista ou um indivíduo que pertença
       ao grupo de clientes (que tenha mais experiência).
-
-
 
          -> Tarefa    -> Atividade -> Ações
 Processo 

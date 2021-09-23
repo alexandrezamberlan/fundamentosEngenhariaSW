@@ -1,22 +1,26 @@
 Metodologia de desenvolvimento de software: o que deve ser feito, quando e por quem
 	- aconselha um fluxo de trabalho, ou de modelagem.
 	- possui fases ou etapas a serem seguidas
-	- se utiliza de técnicas da Engenharia de Software. Isso quer dizer que a engenharia está contida na metodologia,
+	- utiliza-se de técnicas da Engenharia de Software. Isso quer dizer que a engenharia está contida na metodologia,
 	  e a UML está contida na engenharia
-	- exemplos: 
+	- exemplos de metodologia: 
 		. Estruturada Moderna (focada nos aspecto estruturais)
 		. RUP (Rational Unified Process): é a mais tradicional de todas (burocrática); foi dela que surgiu a UML; são 
-		  os mesmos criadores da UML (empresa Rational); é focada em funcionalidades e requisitos; é adequada para grandes e complexos projetos, com equipes com um número considerado (mais de 10 pessoas)
+		  os mesmos criadores da UML (empresa Rational); 
+		  - é focada em funcionalidades e requisitos; é adequada para grandes e complexos projetos, 
+		    com equipes com um número considerado (mais de 10 pessoas)
 		
 		. Métodologias ágeis: são baseadas em RUP, mas infinitamente mais flexíveis e adaptáveis; projetos menos complexos  
 		  e poucos integrantes nas equipes.
 			- XP
 			- FDD
 			- Scrum
-
-
 UML na prática -> fluxo baseado em metodologias ágeis
 	Diagrama de Casos de Uso: 
 		mapear funcionalidades importantes no sistema; 
 		mapear interação de atores junto ao sistema;
 		- a partir das funcionalidades, são listados os requisitos funcionais e não funcionais do sistema
+	Diagramas de Atividades:
+		mapear sequencia das funcionalidades
+	Diagrama de Pacotes:
+		visão geral da estrutura/arquitetura do sistema

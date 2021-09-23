@@ -26,25 +26,72 @@ LINGUAGEM DE MODELAGEM UNIFICADA (UML)
         - Estruturais: modelar aspectos referente a atributos, objetos e classes.
             - Classe, Pacote, Entrega
         - Funcionais/Comportamentais: modelar aspectos referentes a operações ou métodos que o sistema ou os objetos podem ter.
-            Atividades, Sequencia (diagrama de interação), Casos de Uso (mapeia todas as macro funcionalidades do sistema)
+            1) Casos de Uso (mapeia todas as macro funcionalidades do sistema)
+            2) Atividades (mapeia uma sequencia de atividades), 
+            3) Sequencia (mapeia a interação entre as funcionalidades - diagrama de interação), 
+            
     ASTAH: ferramenta para diagramar UML
     
    
    CURIOSIDADES:
-    IDE - Integrated Development Environment - Ambiente de Desenvolvimento Integrado (codifica, compila, executa, debuga e testa): CodeBlock, DevCPP, VisualStudio, Netbeans
+    IDE - Integrated Development Environment - Ambiente de Desenvolvimento Integrado (codifica, compila, executa, debuga e testa): CodeBlock, 
+        DevCPP, VisualStudio, Netbeans
         OBSERVAÇÃO: Uma boa IDE permite a inserção de APIs e de sistemas de controle de versão
-    API - Application Programming Interface - Interface para Programar Aplicações (esta associado a um framework, logo a funcionalidades/serviços prontos): 
+    API - Application Programming Interface - Interface para Programar Aplicações (esta associado a um framework, logo a funcionalidades/serviços 
+    prontos): 
     
    Modelagem Estruturada: 
     - Da década de 80 e foi elaborada por Peter Chen.
     - Focada (INÍCIO) na construção do sistema a partir dos aspectos ESTRUTURAIS, principalmente, BANCO DE DADOS.
     - Diagramas de Entidade-Relacionamento (ER: banco de dados) e de Fluxo de Dados (DFD: funcionalidades)
-    - Era muito usada com a METODOLOGIA CASCATA: só depois de fazer a modelagem, se fazia o projeto; só depois do projeto, se começava a implementação; só depois de terminar a implementação que o cliente recebi uma versão;
+    - Era muito usada com a METODOLOGIA CASCATA: só depois de fazer a modelagem, se fazia o projeto; só depois do projeto, se começava a 
+    implementação; só depois de terminar a implementação que o cliente recebi uma versão;
     
    Modelagem Orientada a Objetos (ENGENHARIA DE SOFTWARE ORIENTADA A OBJETOS)
     - Engenharia de software mais atual (iniciou nos anos 90) e foi criada por Booch, Rumbaugh, Jacobson.
     - Focada (INÍCIO) na construção do sistema a partir dos ASPECTOS FUNCIONAIS e com o uso da UML
     - Diagramas: Casos de Uso, Atividades, Interação (Sequência); Pacotes e de Entrega (deployment)
     - É muito utilizada com metodologias ÁGEIS (XP, FDD e SCRUM)
-        - elas executam as fases da engenharia (sem ser em cascata). Ou seja, faz-se um pouco de modelagem, ou pouco de projeto, pouco de implementação (gerando protótipos) e entregas frequentes (quase que quinzenais) aos clientes. 
+        - elas executam as fases da engenharia (sem ser em cascata). Ou seja, faz-se um pouco de modelagem, ou pouco de projeto, 
+        pouco de implementação (gerando protótipos) e entregas frequentes (quase que quinzenais) aos clientes. 
         - O QUE MUDA DRASTICAMENTE: é a presença do cliente na equipe do projeto e ENTREGAS FREQUENTES
+
+
+
+Exemplo
+    Jogo online em navegador para mais de 2 jogadores ao mesmo tempo. É um jogo de relacionamento, em que cada jogador tem nome, email, 
+    apelido, sexo, pontuação de batalha, pontuação de outro jogador. O jogador entra numa batalha com uma pontuação padrão, 
+    em que todo jogador tem a mesma pontuação. 
+    A medida que a batalha ocorre, os jogadores podem fazer alianças (a qualquer momento em troca de algo) ou inimigos para pontuar. 
+    Uma batalha ocorre no máximo de 30 minutos. Todos os jogadores que entrarem em uma batalha, precisam batalhar contra alguém ou contra um grupo, 
+    seja sozinho ou com aliados.
+
+    Requisitos funcionais   
+        - ter conexão na internet
+        - ter uma arquitetura cliente-servidor: servidor com sistema operacional e os serviços básicos para conetar o sistema pela Web
+        - possibilidade de haver 2 ou mais jogadores conectados numa batalha 
+        - todo o jogador deve possuir login (usuário, senha, nome, email, apelido, sexo, pontosBatalha, pontosAvaliacao)
+        - uma batalha deve possuir 2 jogadores com pontuação padrão e tempo de jogo de no máximo 30 min
+        - um jogador pode fazer aliança com outro via chat público ou privado
+        - um jogador pode fazer aliança trocando pontos ou utensílios/itens de inventário
+        - gestão de usuários: CRUD - create, retrieve, update, delete 
+        - gestão de batalhas: create e delete
+        - gestão de inventário: CRUD
+        - gestão de times
+
+    Requisitos não funcionais
+        - banco de dados MySQL para armazenar dados
+        - validação de senha por criptografia
+        - sistema fazer de tempos em tempos um screen shot do cenário e salvar na máquina local, para evitar desconexões
+
+Diagrama de Casos de Uso (funcional)
+    - especifica questões funcionais do sistema:
+        1) atores: as pessoas ou outros sistemas que interagem com o sistema proposto
+        2) casos de uso: é um conjunto de funcionalidades aglomeradas numa unidade, que se relacionam com atores e/ou com outros casos de uso
+
+Diagrama de atividade (funcional)
+    - especifica questões funcionais do sistema, mas dando ênfase na sequência em que as funcionalidades devem ser executadas. Ou até mesmo,
+      como as funcionalidades de um caso de uso são executadas.
+
+Diagrama de pacotes (estrutural)
+    - especifica questões estruturais, ou seja, ele aninha as funcionalidades em pacotes.
