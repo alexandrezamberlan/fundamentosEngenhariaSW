@@ -95,3 +95,13 @@ Diagrama de atividade (funcional)
 
 Diagrama de pacotes (estrutural)
     - especifica questões estruturais, ou seja, ele aninha as funcionalidades em pacotes.
+    - uma boa prática para se construir diagramas de pacotes na ferramenta ASTAH é usar
+      o diagrama de classes.    
+        - pacotes: aglomerado de classes (por funcionalidades), é trazido do diagrama de casos de uso
+        - classes: representam uma categoria ou um tipo no sistema a ser criado
+        - relacionamentos: é a forma como duas classes interagem
+            - herança: uma classe é do tipo de outra classe
+            - associação: uma classe relaciona-se fracamente com outra classe
+            - dependência: uma classe depende da outra classe, como se fosse uma associação forte 
+            - agregação/composição: uma classe é composta por outra classe, como se fosse uma dependência forte
+            - todo relacionamento tem cardinalidade/multiplicidade: quanto (objetos/elementos/indivíduos) de uma classe se relaciona com quanto de outra classe
