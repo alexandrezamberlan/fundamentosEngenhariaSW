@@ -1,0 +1,30 @@
+https://www.youtube.com/watch?v=r5dtl9Uq9V0
+https://docs.microsoft.com/en-us/dotnet/core/tutorials/cli-create-console-app
+
+
+dotnet new sln -n NomeSolucao
+
+dotnet new console -n SolucaoNoConsole
+
+dotnet new classlib -n NomeBiblioteca
+
+F5 		    - tecla de atalho para execução
+Shift-F5 	- finaliza a execução
+F7 		    - altera entre as janelas abertas no VS
+Shift-Del	- excluir uma linha em que o cursor esta
+Alt-Setas	- movimenta um bloco ou linha
+Ctrl-K-C	- comenta linha ou bloco marcado
+Ctrl-K-U	- descontenta linha ou bloco marcado
+Ctrl-K-D	- indenta código do arquivo
+Ctrl-.	    - resolve problemas de using/imports ou quando erros acontecem… seleciona-se o erro e pressiona-se as teclas
+Pressionar 3 vezes / em cima do método para gerar C# Docs
+Shift-F12	- marca-se atributo/classe/método e o VS mostra todos os lugares que atributo/classe/método são executados
+F9		    - cria um breakpoint
+F5		    - executa o projeto
+F11		    - inicia debug linha a linha
+F10		    - linha a linha, mas não entra no método…fica no escopo
+
+instrução-Tab-Tab 	- monta a sintaxe da instrução
+
+
+parcial class - possibilidade de dividir a declaração de uma classe em vários arquivos

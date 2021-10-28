@@ -1,0 +1,15 @@
+/Users/alexandrezamberlan/Documents/fundamentosEngenhariaSW/OrientacaoObjetosC#/GestaoBasica/bin/Debug/net5.0/GestaoBasica.deps.json
+/Users/alexandrezamberlan/Documents/fundamentosEngenhariaSW/OrientacaoObjetosC#/GestaoBasica/bin/Debug/net5.0/GestaoBasica.runtimeconfig.json
+/Users/alexandrezamberlan/Documents/fundamentosEngenhariaSW/OrientacaoObjetosC#/GestaoBasica/bin/Debug/net5.0/GestaoBasica.runtimeconfig.dev.json
+/Users/alexandrezamberlan/Documents/fundamentosEngenhariaSW/OrientacaoObjetosC#/GestaoBasica/bin/Debug/net5.0/GestaoBasica.dll
+/Users/alexandrezamberlan/Documents/fundamentosEngenhariaSW/OrientacaoObjetosC#/GestaoBasica/bin/Debug/net5.0/ref/GestaoBasica.dll
+/Users/alexandrezamberlan/Documents/fundamentosEngenhariaSW/OrientacaoObjetosC#/GestaoBasica/bin/Debug/net5.0/GestaoBasica.pdb
+/Users/alexandrezamberlan/Documents/fundamentosEngenhariaSW/OrientacaoObjetosC#/GestaoBasica/obj/Debug/net5.0/GestaoBasica.csproj.AssemblyReference.cache
+/Users/alexandrezamberlan/Documents/fundamentosEngenhariaSW/OrientacaoObjetosC#/GestaoBasica/obj/Debug/net5.0/GestaoBasica.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandrezamberlan/Documents/fundamentosEngenhariaSW/OrientacaoObjetosC#/GestaoBasica/obj/Debug/net5.0/GestaoBasica.AssemblyInfoInputs.cache
+/Users/alexandrezamberlan/Documents/fundamentosEngenhariaSW/OrientacaoObjetosC#/GestaoBasica/obj/Debug/net5.0/GestaoBasica.AssemblyInfo.cs
+/Users/alexandrezamberlan/Documents/fundamentosEngenhariaSW/OrientacaoObjetosC#/GestaoBasica/obj/Debug/net5.0/GestaoBasica.csproj.CoreCompileInputs.cache
+/Users/alexandrezamberlan/Documents/fundamentosEngenhariaSW/OrientacaoObjetosC#/GestaoBasica/obj/Debug/net5.0/GestaoBasica.dll
+/Users/alexandrezamberlan/Documents/fundamentosEngenhariaSW/OrientacaoObjetosC#/GestaoBasica/obj/Debug/net5.0/ref/GestaoBasica.dll
+/Users/alexandrezamberlan/Documents/fundamentosEngenhariaSW/OrientacaoObjetosC#/GestaoBasica/obj/Debug/net5.0/GestaoBasica.pdb
+/Users/alexandrezamberlan/Documents/fundamentosEngenhariaSW/OrientacaoObjetosC#/GestaoBasica/obj/Debug/net5.0/GestaoBasica.genruntimeconfig.cache
