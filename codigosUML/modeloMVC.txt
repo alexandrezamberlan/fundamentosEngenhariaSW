@@ -1,0 +1,10 @@
+Desenvolvimento profissional de SW utiliza boas práticas:
+    1 - uso de metodologia ágil: técnica kanban (responsáveis e tarefas); sprints/reuniões; ...
+    2 - versionamento de código
+    3 - uso frameworks: coleção de pacotes, classes, interfaces, métodos para reuso
+        3.1 - padrão Model-View-Controller
+            - model -> persistência dos dados (orientação a objetos + banco de dados)
+            - controller -> regras do negócio e o que o usuário do sistema vai acessar
+            - view -> como o usuário do sistema vai interagir com o sistema
+
+        
